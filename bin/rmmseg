@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'rmmseg'
+require 'rmmseg-yh-yh'
 include RMMSeg
 
 require 'getoptlong'

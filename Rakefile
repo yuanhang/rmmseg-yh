@@ -3,7 +3,7 @@
 load 'tasks/setup.rb'
 
 ensure_in_path 'lib'
-require 'rmmseg'
+require 'rmmseg-yh'
 
 task :default => 'spec:run'
 
