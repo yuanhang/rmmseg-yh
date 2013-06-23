@@ -1,5 +1,5 @@
 $KCODE = 'u'
-require 'jcode'
+require 'jcode' if RUBY_VERSION < '1.9'
 
 require 'rmmseg/config'
 require 'rmmseg/simple_algorithm'

@@ -1,4 +1,4 @@
-require 'jcode'
+require 'jcode' if RUBY_VERSION < '1.9'
 require 'rmmseg/dictionary'
 require 'rmmseg/word'
 require 'rmmseg/chunk'
