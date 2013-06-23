@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/66/trunk/spec
+END
+config_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/spec/config_spec.rb
+END
+dictionary_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/spec/dictionary_spec.rb
+END
+lsdmfocw_rule_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/66/trunk/spec/lsdmfocw_rule_spec.rb
+END
+lawl_rule_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/66/trunk/spec/lawl_rule_spec.rb
+END
+chunk_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/38/trunk/spec/chunk_spec.rb
+END
+word_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/spec/word_spec.rb
+END
+complex_algorithm_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/11/trunk/spec/complex_algorithm_spec.rb
+END
+simple_algorithm_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/56/trunk/spec/simple_algorithm_spec.rb
+END
+spec_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/28/trunk/spec/spec_helper.rb
+END
+mm_rule_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/66/trunk/spec/mm_rule_spec.rb
+END
+svwl_rule_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/66/trunk/spec/svwl_rule_spec.rb
+END
