@@ -1,6 +1,7 @@
 # $Id$
 
-require 'rake/rdoctask'
+require 'rake/rdoctask' if RUBY_VERSION < '1.9'
+require 'rdoc/task'  if RUBY_VERSION >= '1.9'
 
 namespace :doc do
 

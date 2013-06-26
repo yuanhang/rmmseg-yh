@@ -1,6 +1,7 @@
 # $Id$
 
-require 'rake/gempackagetask'
+require 'rake/gempackagetask' if RUBY_VERSION < '1.9'
+require 'rubygems/package_task' if RUBY_VERSION >= '1.9'
 
 namespace :gem do
 
@@ -81,7 +82,9 @@ namespace :gem do
 
   file "#{pkg.package_dir}/#{gem_file}" => [pkg.package_dir] + PROJ.spec.files do
     when_writing("Creating GEM") {
-      Gem::Builder.new(PROJ.spec).build
+      # Gem::Builder.new(PROJ.spec).build
+      # To work with ruby 2.0
+      Gem::Package.build(PROJ.spec)
       verbose(true) {
         mv gem_file, "#{pkg.package_dir}/#{gem_file}"
       }

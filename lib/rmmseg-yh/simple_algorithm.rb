@@ -1,5 +1,5 @@
-require 'rmmseg/algorithm'
-require 'rmmseg/mm_rule'
+require 'rmmseg-yh/algorithm'
+require 'rmmseg-yh/mm_rule'
 
 module RMMSeg
   class SimpleAlgorithm

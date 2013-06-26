@@ -3,16 +3,16 @@
 load 'tasks/setup.rb'
 
 ensure_in_path 'lib'
-require 'rmmseg'
+require 'rmmseg-yh'
 
 task :default => 'spec:run'
 
-PROJ.name = 'rmmseg'
-PROJ.authors = 'pluskid'
-PROJ.email = 'pluskid@gmail.com'
-PROJ.url = 'http://rmmseg.rubyforge.org'
-PROJ.rubyforge_name = 'rmmseg'
-PROJ.rdoc_remote_dir = 'rmmseg'
+PROJ.name = 'rmmseg-yh'
+PROJ.authors = 'Yuanhang Guo'
+PROJ.email = 'yuanhang.guo@gmail.com'
+PROJ.url = ''
+PROJ.rubyforge_name = 'rmmseg-yh'
+PROJ.rdoc_remote_dir = 'rmmseg-yh'
 PROJ.version = RMMSeg::VERSION
 
 PROJ.exclude << '\.git'

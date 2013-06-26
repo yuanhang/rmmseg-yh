@@ -32,8 +32,8 @@ passing option +-h+ can get an overview of all supported options.
 
 Using the +Analyzer+ for Ferret is even easier:
 
-  require 'rmmseg'
-  require 'rmmseg/ferret'
+  require 'rmmseg-yh'
+  require 'rmmseg-yh/ferret'
 
   alalyzer = RMMSeg::Ferret::Analyzer.new
   index = Ferret::Index::Index.new(:analyzer => analyzer)

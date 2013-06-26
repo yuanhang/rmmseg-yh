@@ -1,4 +1,4 @@
-require 'rmmseg/rule_helper'
+require 'rmmseg-yh/rule_helper'
 
 module RMMSeg
   # Smallest variance of word length rule.

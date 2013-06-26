@@ -2,7 +2,7 @@
 require 'singleton'
 require 'rubygems'
 require 'ferret'
-require 'rmmseg'
+require 'rmmseg-yh'
 
 module RMMSeg
   module Ferret

@@ -1,4 +1,4 @@
-require 'rmmseg/rule_helper'
+require 'rmmseg-yh/rule_helper'
 
 module RMMSeg
   # Maximum matching rule, select the chunks with the

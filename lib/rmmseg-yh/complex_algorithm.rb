@@ -1,8 +1,8 @@
-require 'rmmseg/algorithm'
-require 'rmmseg/mm_rule'
-require 'rmmseg/lawl_rule'
-require 'rmmseg/svwl_rule'
-require 'rmmseg/lsdmfocw_rule'
+require 'rmmseg-yh/algorithm'
+require 'rmmseg-yh/mm_rule'
+require 'rmmseg-yh/lawl_rule'
+require 'rmmseg-yh/svwl_rule'
+require 'rmmseg-yh/lsdmfocw_rule'
 
 module RMMSeg
   class ComplexAlgorithm

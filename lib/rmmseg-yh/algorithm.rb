@@ -1,8 +1,8 @@
-require 'jcode'
-require 'rmmseg/dictionary'
-require 'rmmseg/word'
-require 'rmmseg/chunk'
-require 'rmmseg/token'
+require 'jcode' if RUBY_VERSION < '1.9'
+require 'rmmseg-yh/dictionary'
+require 'rmmseg-yh/word'
+require 'rmmseg-yh/chunk'
+require 'rmmseg-yh/token'
 
 module RMMSeg
   # An algorithm can segment a piece of text into an array of

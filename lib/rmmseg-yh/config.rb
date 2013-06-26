@@ -1,5 +1,5 @@
-require 'rmmseg/simple_algorithm'
-require 'rmmseg/complex_algorithm'
+require 'rmmseg-yh/simple_algorithm'
+require 'rmmseg-yh/complex_algorithm'
 
 module RMMSeg
   # Configurations of RMMSeg.

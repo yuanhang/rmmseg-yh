@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require 'rubygems'
-require 'rmmseg'
-require 'rmmseg/ferret'
+require 'rmmseg-yh'
+require 'rmmseg-yh/ferret'
 
 analyzer = RMMSeg::Ferret::Analyzer.new { |tokenizer|
   Ferret::Analysis::LowerCaseFilter.new(tokenizer)

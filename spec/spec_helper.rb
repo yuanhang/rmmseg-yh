@@ -1,5 +1,5 @@
 $: << File.join(File.dirname(__FILE__), "../lib")
-require 'rmmseg'
+require 'rmmseg-yh'
 
 def gen_words words, freqs=nil
   if freqs.nil?
